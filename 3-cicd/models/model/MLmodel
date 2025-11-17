@@ -1,0 +1,22 @@
+artifact_path: file:///Users/rociofaena/Documents/ML Ops/MLOPS-main/3-cicd/mlruns/682176485180858109/models/m-b08a755267d447bfbf4ff1be50bff959/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.6.0
+model_id: m-b08a755267d447bfbf4ff1be50bff959
+model_size_bytes: 1182385
+model_uuid: m-b08a755267d447bfbf4ff1be50bff959
+prompts: null
+run_id: 17c10ae9ff3b4f628428bd8524a8de11
+utc_time_created: '2025-11-17 16:27:37.736132'

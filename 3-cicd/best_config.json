@@ -1,0 +1,60 @@
+{
+  "model": {
+    "name": "XGBoost",
+    "class": "XGBoost",
+    "hyperparameters": {
+      "n_estimators": 400,
+      "max_depth": 6,
+      "learning_rate": 0.01,
+      "subsample": 0.8,
+      "colsample_bytree": 1.0,
+      "scale_pos_weight": 1.26
+    }
+  },
+  "features": {
+    "selected": [
+      "work_interfere",
+      "care_options",
+      "family_history",
+      "Gender",
+      "leave",
+      "supervisor",
+      "no_employees",
+      "coworkers",
+      "mental_health_interview",
+      "wellness_program",
+      "phys_health_consequence",
+      "mental_health_consequence",
+      "self_employed"
+    ],
+    "removed": [
+      "mental_vs_physical",
+      "tech_company",
+      "remote_work",
+      "obs_consequence",
+      "phys_health_interview",
+      "anonymity",
+      "seek_help",
+      "benefits",
+      "Age"
+    ],
+    "importance_threshold": 0.001
+  },
+  "performance": {
+    "cv_recall_mean": 0.7881028543307086,
+    "cv_recall_std": 0.025552003826702103,
+    "cv_precision_mean": 0.745178507371941,
+    "cv_precision_std": 0.024027445071600095,
+    "cv_f1_mean": 0.7652901778667897,
+    "cv_f1_std": 0.0070382873064454236,
+    "cv_fbeta_mean": 0.7737121876143854,
+    "cv_fbeta_std": 0.01084126513888708,
+    "cv_roc_auc_mean": 0.8221246257461265,
+    "cv_roc_auc_std": 0.013525005065555566
+  },
+  "targets": {
+    "min_recall": 0.8,
+    "min_precision": 0.65,
+    "beta": 1.5
+  }
+}
