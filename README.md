@@ -157,5 +157,5 @@ Update the code to read `API_URL = os.getenv("API_URL", "http://localhost:8000")
 - **100 % / 0 % probabilities:** Make sure the saved pipeline’s final estimator implements `predict_proba`. The provided LogisticRegression/RandomForest/XGBoost configs do.
 - **Streamlit errors about CORS or HTTPS:** Render serves HTTPS by default; Streamlit Cloud also uses HTTPS. No extra configuration is needed, but ensure `API_URL` starts with `https://` when pointing to Render.
 
-Happy predicting!
+### Happy predicting!
 
