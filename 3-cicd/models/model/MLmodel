@@ -1,4 +1,4 @@
-artifact_path: file:///Users/rociofaena/Documents/ML Ops/MLOPS-main/3-cicd/mlruns/682176485180858109/models/m-b08a755267d447bfbf4ff1be50bff959/artifacts
+artifact_path: file:///Users/rociofaena/Documents/ML Ops/MLOPS-main/3-cicd/mlruns/682176485180858109/models/m-c9a03df741014c61a8ed9331aeeba695/artifacts
 flavors:
   python_function:
     env:
@@ -14,9 +14,9 @@ flavors:
     serialization_format: cloudpickle
     sklearn_version: 1.7.2
 mlflow_version: 3.6.0
-model_id: m-b08a755267d447bfbf4ff1be50bff959
+model_id: m-c9a03df741014c61a8ed9331aeeba695
 model_size_bytes: 1182385
-model_uuid: m-b08a755267d447bfbf4ff1be50bff959
+model_uuid: m-c9a03df741014c61a8ed9331aeeba695
 prompts: null
-run_id: 17c10ae9ff3b4f628428bd8524a8de11
-utc_time_created: '2025-11-17 16:27:37.736132'
+run_id: 806cc2eb28164ee5a2ee9922c183c729
+utc_time_created: '2025-11-17 17:23:42.638866'
