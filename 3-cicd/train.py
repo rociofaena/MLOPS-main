@@ -14,10 +14,7 @@ Usage:
 import os
 import re
 import json
-import zipfile
 import shutil
-import tempfile
-import subprocess
 import urllib.parse
 from pathlib import Path
 
